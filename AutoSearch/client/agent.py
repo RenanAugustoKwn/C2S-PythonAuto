@@ -1,11 +1,11 @@
 def conversar():
-    print("Olá! Estou aqui pra te ajudar a encontrar um carro!")
+    print("Procurar Carro!")
     filtros = {}
     
-    marca = input("De qual marca você procura? ").strip()
+    marca = input("Qual a marca do carro que voce deseja? ").strip()
     if marca: filtros['marca'] = marca
 
-    cor = input("Tem alguma cor preferida? ").strip()
+    cor = input("Qual a cor? ").strip()
     if cor: filtros['cor'] = cor
 
     combustivel = input("Tipo de combustível (Gasolina, Etanol, Flex)? ").strip()
